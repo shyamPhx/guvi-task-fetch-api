@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e8e8e8 !important;
+}
+
+.container {
+  background-color: #192E36;
+}
+.countriesInfo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 13px !important;
+  padding-top: 13px !important;
+}
+
+.card{
+  width: 100%;
+  /* margin: 5px 0; */
+  background-color: red;
+  height: 500px;
+}
+
+.card-body{
+  padding: 0 0 0 0 !important;
+  background: rgb(209,206,133);
+  background: linear-gradient(90deg, rgba(209,206,133,1) 0%, rgba(98,95,80,1) 58%);
+  color: #fff;
+}
+
+.card-title{
+  padding: 10px;
+}
+
+.card-img-top{
+  flex-shrink: 0;
+    width: 100%;
+    height: 56%;
+    padding: 20px;
+}
+
+.capital span{
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.card-contents{
+  padding: 0 15px;
+  text-align: center;
+}
+
+.card-contents p{
+  padding: 0;
+  margin: 0;
+}
+
+.card-contents p span{
+  margin-left: 3px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.short-title{
+  font-size: 13px;
+}
+
+.weatherBtn{
+  margin-top: 5px;
+  padding: 2px 10px !important;
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+}
+
+.blackBackground{
+  background-color:#000;
+  color: #fff;
+}
+
+/********************************************************** modal *******************************************************/
+
+.modal-body div p{
+  display: inline;
+}
+
+.degreeCelsius{
+  content: "\2103";
+}
+
+.modal-body div p:last-child{
+  font-weight: bolder;
+}
+
+.modal-custom-color{
+  background-color: #192E36 !important;
+  color: #fff !important;
+}
